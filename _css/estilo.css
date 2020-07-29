@@ -1,0 +1,147 @@
+@charset "UTF-8";
+body{
+    background-color: #606060;
+    
+}
+/*Formatação Interface*/
+div#interface{
+    
+    margin: -20px auto 0px auto;
+    width: 900px;
+    height: auto;
+    background-color: #a1d9e7;
+    padding: 20px;
+}
+/*Formatação Cabeçalho*/
+header#cabecalho-sobre{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 900px;
+    height: 180px;  
+}
+header#cabecalho-inicio{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-image: url("../_imagem/casa_fundo.jpg");
+    width: 900px;
+    height: 350px;  
+}
+header#cabecalho-inicio h1, header#cabecalho-sobre h1{
+    text-shadow: 2px 2px 2px #888888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    text-align: center;
+    color: rgba(0,0,0,.6);
+}
+
+header#cabecalho-inicio h2{
+    text-shadow: 2px 2px 2px #888888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    color: rgba(0,0,0,.6);
+}
+
+/*Formatação Menu */
+nav#menu{
+    display: block;
+    font-size: 9pt;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu ul#link{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -12px;
+    left: 270px;
+}
+
+nav#menu ul#img{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 750px;
+}
+
+
+
+nav#menu ul#link li{
+    display: inline-block;
+    background-color: #167c96;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu ul#img li{
+    display: inline-block;
+    padding: 2px;
+    margin: 5px;
+}
+
+nav#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu ul#link li:hover{
+    background-color: #888888;
+}
+
+nav#menu ul#img li:hover{
+    background-color: #dfdfdf;
+}
+/*Formatação Corpo */
+
+section#corpo h1{
+    background-color: #167c96;
+    color: #cecece;
+    padding: 5px;
+    font-size: 15pt;
+    margin: auto 0px auto 0px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#corpo h2{
+    color: #606060;
+    font-size: 12pt;
+
+}
+
+section#corpo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+section#corpo span#foto-sistema{
+    display: block;
+    position: relative;
+    left: 300px;
+}
+
+span.smart{
+    font-style: italic;
+}
+
+/*Formatação Rodapé*/
+footer#rodape{
+    clear: both;
+    margin-top: 150px; 
+}
+
+footer#rodape h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+    text-align: center;
+}

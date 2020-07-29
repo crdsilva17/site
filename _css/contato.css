@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+section#corpo{
+    display: block;
+}
+aside#fale{
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside#fale fieldset {
+    margin-bottom: 20px;
+    border: none;
+}
+
+aside#fale legend{
+    background-color: #cecece;
+    padding: 5px;
+    color: #606060;
+    text-shadow: #fffdfd;
+}
+
+aside#fale fieldset input {
+    margin-bottom: 10px;
+}
+
+aside#fale label{
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-shadow: 1px 1px 1px #888888;
+}
+aside#fale td.texto{
+    vertical-align: top;
+    text-align: right;
+}
+
+aside#fale textarea#cArea{
+    height: 150px;
+    width: 400px;
+    resize: none;
+}
+
+aside#fale input#enviar{
+    width: 80px;
+    height: 30px;
+    background-color: #084b77 ;
+    color: #cecece;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+aside#fale input#enviar:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+article#data{
+    clear: both;
+}
+
+iframe#meu-frame {
+    display: block;
+    border: 1px solid;
+    position: relative;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+ul.geral li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px black;
+}

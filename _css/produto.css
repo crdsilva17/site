@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+table, th, td{
+    border: 1px none black;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed;
+}
+
+th{
+    background-color: #cecece;
+    text-shadow: 1px 1px 1px #606060;
+}
+
+td{
+    text-align: left;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-right: 1px dashed;
+    border-left: 1px dashed;
+}
+
+section#corpo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #1723df;
+    background-color: #1784dd;
+    padding: 5px;
+    width: 750px;
+    text-align: center;
+    margin: auto;
+}
